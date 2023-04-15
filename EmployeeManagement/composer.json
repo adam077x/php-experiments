@@ -1,0 +1,19 @@
+{
+    "name": "spravce/employee-management",
+    "description": "Web application for managing employees.",
+    "type": "project",
+    "require": {
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "adam077x",
+            "email": "adam.heczko@gmail.com"
+        }
+    ],
+    "scripts": {
+        "run_server": [
+            "php -S localhost:5000"
+        ]
+    }
+}

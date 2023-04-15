@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    width: 100%;
+    height: 3em;
+    background: cyan;
+    position: absolute;
+}
+
+.buttons {
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    width: calc(100% - 0.5em);
+    bottom: 0;
+    margin: 0em 0.5em;
+}
+
+.button {
+    border-left: 1px solid rgb(104, 220, 255);
+    border-right: 1px solid rgb(104, 220, 255);
+    border-top: 1px solid rgb(104, 220, 255);
+    text-decoration: none;
+    padding: 0.1em 0.3em 0em 0.3em;
+    font-weight: bold;
+    margin: 0em 0.25em;
+    background: rgb(198, 242, 255);
+}
+
+.page-content {
+    position: absolute;
+    margin-top: 3.75em;
+    margin-left: 1em;
+    margin-right: 1em;
+    width: 100%;
+}
+
+.post-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form {
+    position: absolute;
+    right: 2em;
+}
+
+.login-form form {
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,8 @@
+body {
+    background: rgb(235, 235, 235);
+    overflow: hidden;
+}
+
+.content-container {
+    margin: 1em var(--left-nav-margin);
+}
